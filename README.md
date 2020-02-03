@@ -43,3 +43,6 @@ The project will consist of three major components: client, server, and database
 
 ## High-level diagram
 ![High-level diagram](https://raw.githubusercontent.com/boylebryce/chat-thing/master/high%20level%20diagram.png)
+
+## UML diagram
+![UML diagram](https://raw.githubusercontent.com/boylebryce/chat-thing/master/uml%20diagram.png)
