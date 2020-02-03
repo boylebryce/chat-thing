@@ -1,12 +1,19 @@
 # chat-thing
 
+## Problem
+
+People want to communicate with each other since they are not able to see each other in person due to work or other reasons. Other people want to make new friends using chat rooms.
+
+### Our Goal
+To build a free, easy and private chat room application that allows people to communicate with one another or a group of people. 
+
 ## Abstract
 
 This is a school project for CS401 - Software Engineering. This project will be a simple chat room / messaging system using a client-server model. The project will allow users on the client side to create an account,using a username and password, join a chat room, and send messages in that chat room. The server will maintain each chat room and forward messages from clients in a chat room to all other clients in the same chat room. The server will use a database to maintain user accounts, chat rooms, and chat room message histories. The client application will present controls to create an account, log in, select a chat room to chat with other people, view the chat room's message history once you have entered that specific chat room, and send messages. Also, be able to send private messages between two users. This chat will make a smoother communication for people. Broadcast general notifications, such as user logins and logouts.
 
 ## Requirements
 
-The project will consist of three major components: client, server, and database. The requirements for each component are as follows:
+The project will consist of four major components: client, server, database and GIUs. The requirements for each component are as follows:
 
 ### Client
 - Connect to the server over a network
@@ -40,6 +47,9 @@ The project will consist of three major components: client, server, and database
 - Maintain a table of user accounts with unique userID's, usernames, and encrypted passwords
 - Maintain a chat log for each chat room
 - Only communicates with the server, never directly with the client, for security purposes
+
+### GIUs
+- User interface that is functional
 
 ## High-level diagram
 ![High-level diagram](https://raw.githubusercontent.com/boylebryce/chat-thing/master/high%20level%20diagram.png)
