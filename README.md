@@ -10,7 +10,7 @@ The project will consist of three major components: client, server, and database
 
 ### Client
 - Connect to the server over a network
-- Allow the user to create new accounts
+- Allow the user to create new accounts, using a username, that is unique and a password
 - Allow the user to log in with an existing account
 - On successful login, allow the user to select a chat room to join
 - Display the chat log and connected users
@@ -37,7 +37,7 @@ The project will consist of three major components: client, server, and database
 - Forward direct messages between two users
 
 ### Database
-- Maintain a table of user accounts with unique usernames and encrypted passwords
+- Maintain a table of user accounts with unique userID's, usernames, and encrypted passwords
 - Maintain a chat log for each chat room
 - Only communicates with the server, never directly with the client, for security purposes
 
