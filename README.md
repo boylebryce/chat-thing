@@ -13,7 +13,7 @@ This is a school project for CS401 - Software Engineering. This project will be 
 
 ## Requirements
 
-The project will consist of four major components: client, server, database and GIUs. The requirements for each component are as follows:
+The project will consist of four major components: client, server, database and GUI. The requirements for each component are as follows:
 
 ### Client
 - Connect to the server over a network
@@ -48,7 +48,7 @@ The project will consist of four major components: client, server, database and 
 - Maintain a chat log for each chat room
 - Only communicates with the server, never directly with the client, for security purposes
 
-### GIUs
+### GUI
 - User interface that is functional
 
 ## High-level diagram
