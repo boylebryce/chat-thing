@@ -5,7 +5,7 @@
 People want to communicate with each other since they are not able to see each other in person due to work or other reasons. Other people want to make new friends using chat rooms.
 
 ### Our Goal
-To build a free, easy and private chat room application that allows people to communicate with one another or a group of people. By having multiple chat rooms running in the same server.
+To build a free, easy and private chat room application that allows people to communicate with one another or a group of people. Be allow to have multiple chat rooms running in the same server.
 
 ## Abstract
 
