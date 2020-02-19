@@ -1,18 +1,17 @@
-Chat-thing Requirements Document
-https://github.com/boylebryce/chat-thing
+#Chat-thing Requirements Document
 
 
-1.	Purpose
-a.	Problem
+##1.	Purpose
+###Problem
 People want to communicate with each other since they are not able to see each other in person due to work or other reasons. Other people want to make new friends using chat rooms.
 
-b.	Goal
+###Goal
 Our goal is to build a free, easy, and private chat room application that allows people to communicate with one another or a group of people in a chat room.
 
-c.	Background
+###Background
 This is a group project for CS401 Software Engineering. We have been tasked with a semester-long software engineering project that requires us to implement a substantial piece of software using engineering principles and techniques learned in class. We have selected a chat room application running over a network in a client-server model because it is a useful tool demonstrating network programming, information security, and object-oriented design.
 
-d.	Definitions
+###Definitions
 i.	Client – The software that runs on the end user’s machine, allowing them to connect to a chat room and send messages.
 
 ii.	Server – The software that runs on a remote machine and allows clients to communicate with each other in chat rooms and direct messages.
