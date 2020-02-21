@@ -24,7 +24,7 @@ This is a group project for CS401 Software Engineering. We have been tasked with
 
 6. Chatroom – A collection of Users who can send messages that will be sent to all other Users in the same collection (room).
 
-7. DirectMessage (DM) – A special chatroom that contains two Users who can send messages that will be sent to the other User.
+7. DirectMessage (DM) – A special chatroom that contains two Users who can send direct/private messages between each other.
 
 ## Environment and system requirements
 ### System overview / Abstract
