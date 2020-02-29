@@ -3,18 +3,18 @@
 
 ## Purpose
 ### Problem
-People want to communicate with each other since they are not able to see each other in person due to work or other reasons. Other people want to make new friends using chat rooms.
+People want to communicate with each other since they are not able to see each other in person due to work or other reasons. Other people simply want to make new friends. The best way to communicate and make friends is though a chat application that allows them to interact with many people or just one person directly.
 
 ### Goal
 Our goal is to build a free, easy, and private chat room application that allows people to communicate with one another or a group of people in a chat room.
 
 ### Background
-This is a group project for CS401 Software Engineering. We have been tasked with a semester-long software engineering project that requires us to implement a substantial piece of software using engineering principles and techniques learned in class. We have selected a chat room application running over a network in a client-server model because it is a useful tool demonstrating network programming, information security, and object-oriented design.
+This is a group project for CS401 Software Engineering. We have been tasked with a semester-long software engineering project that requires us to implement a substantial piece of software using engineering principles and techniques that we have learned in class. We have selected a chat room application running over a network in a client-server model because it is a useful tool demonstrating network programming, information security, and object-oriented design.
 
 ### Definitions
-1. Client – The software that runs on the end user’s machine, allowing them to connect to a chat room and send messages.
+1. Client – The software that runs on the end of the user’s machine, allowing them to connect to a chat room and send messages as well as receive messages.
 
-2. Server – The software that runs on a remote machine and allows clients to communicate with each other in chat rooms and direct messages.
+2. Server – The software that runs on a remote machine and allows clients to communicate with each other in chat rooms and send direct/private messages betweeen two people only.
 
 3. Database – The software the stores information about users, chat rooms, and message histories.
 
