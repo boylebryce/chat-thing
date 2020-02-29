@@ -2,7 +2,7 @@
 
 ## Problem
 
-People want to communicate with each other since they are not able to see each other in person due to work or other reasons. Other people want to make new friends using chat rooms.
+People want to communicate with each other since they are not able to see each other in person due to work or other reasons. Other people simply want to make new friends.The best way to communicate and make friends is through a chat application that allows them to interact with many people or just one person directly.
 
 ### Our Goal
 To build a free, easy and private chat room application that allows people to communicate with one another or a group of people. Be allow to have multiple chat rooms running in the same server.
