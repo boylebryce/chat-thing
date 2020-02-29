@@ -13,6 +13,3 @@ This is a school project for CS401 - Software Engineering. This project will be 
 
 ## High-level diagram
 ![High-level diagram](https://raw.githubusercontent.com/boylebryce/chat-thing/master/high%20level%20diagram.png)
-
-## UML diagram
-![UML diagram](https://raw.githubusercontent.com/boylebryce/chat-thing/master/uml%20diagram.png)
