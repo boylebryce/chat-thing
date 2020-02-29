@@ -3,7 +3,7 @@
 
 ## Purpose
 ### Problem
-People want to communicate with each other since they are not able to see each other in person due to work or other reasons. Other people simply want to make new friends. The best way to communicate and make friends is though a chat application that allows them to interact with many people or just one person directly.
+People want to communicate with each other since they are not able to see each other in person due to work or other reasons. Other people simply want to make new friends. The best way to communicate and make friends is through a chat application that allows them to interact with many people or just one person directly.
 
 ### Goal
 Our goal is to build a free, easy, and private chat room application that allows people to communicate with one another or a group of people in a chat room.
@@ -20,22 +20,22 @@ This is a group project for CS401 Software Engineering. We have been tasked with
 
 4. User – A representation of an end user within the application, including a username for identification in chat rooms and a password for authentication.
 
-5. Message – A representation of a text-based communication within the application, including a text body, a timestamp, and a chat room that the message goes in.
+5. Message – A representation of a text-based communication within the application, including a text body, a timestamp, and a chat room that the message will be a part of.
 
-6. Chatroom – A collection of Users who can send messages that will be sent to all other Users in the same collection (room).
+6. Chatroom – A collection of Users who can send and receive messages that will be sent to all other Users tht are in the same collection (room).
 
-7. DirectMessage (DM) – A special chatroom that contains two Users who can send direct/private messages between each other.
+7. DirectMessage (DM) – A special chatroom that contains only two Users who can communicate by sending direct/private messages between each other.
 
 ## Environment and system requirements
 ### System overview / Abstract
-This application will be a simple chat room and messaging system using a client-server model. It will allow users on the client side to create an account, using a username and password, join a chat room, and send messages in that chat room. The server will maintain each chat room and forward messages from clients in a chat room to all other clients in the same chat room. The server will use a database to maintain user accounts, chat rooms, and chat room message histories. The client application will present controls to create an account, log in, select a chat room to chat with other people, view the chat room's message history once you have entered that specific chat room, and send messages. Also, be able to send private messages between two users. This chat will make a smoother communication for people. Broadcast general notifications, such as user logins and logouts.
+This application will be a simple chat room and messaging system using a client-server model. It will allow users on the client side to create an account, using a username and password, join a particular chat room, and send/reeive messages in that chat room. The server will keep track of each chat room and forward messages from users in a chat room to all other users in the same chat room. The server will use a database in order to maintain user accounts,such as userID's and password, chat rooms, and all chat room's message histories. The client application will present controls to create an account, log in, select a chat room to chat with other people, view the chat room's message history once you have entered that specific chat room, send messages, and leave a chat room. It will also be able to allow private messages between two users. The purpose of this chat application is to make a smoother communication for people, and broadcast general notifications, such as user logins and logouts.
 
 ### Environment
 #### Client environment
 1.	System running a modern version of the Java Runtime Environment
 2.	Connected to a network with a server (local or Internet)
 3.	Capable of displaying a GUI
-4.	Capable of capturing user input with mouse and keyboard for interacting with GUI
+4.	Capable of capturing user input with mouse and keyboard in order to interacting with GUI
 
 #### Server environment
 1.	System running a modern version of the Java Runtime Environment and a database system that works with Java
@@ -46,12 +46,12 @@ This application will be a simple chat room and messaging system using a client-
 
 ### Functional requirements
 #### Client
-1.	Connect to the server over a network automatically on launch
+1.	Connect to the server over a network automatically when it first gets launched
 2.	Allow the user to create a new account with a username and password
 3.	Allow the user to log in with a username and password
-4.	Get list of available chatrooms from server and display in GUI
+4.	Get list of available chatrooms from server and display in the GUI
 5.	Allow a logged in user to select and join an available chatroom from the list
-6.	Get the chat log and user list for a chatroom and display them on screen when user selects a chatroom
+6.	Get the chat log and users list for the specific chatroom and display it on screen when user selects a chatroom
 7.	Allow the user to send text messages to the chatroom
 8.	Receive messages from the server and asynchronously update the chat log displayed on screen to show the new messages
 9.	Allow the user to send text messages to other users in the chatroom by selecting them from the user list (DirectMessage)
@@ -59,7 +59,7 @@ This application will be a simple chat room and messaging system using a client-
   -	A user joins the chat room
   -	A user leaves the chat room
   -	The user receives a direct message
-11.	Allow the user to leave the chatroom and display the list of available chatrooms to join another
+11.	Allow the user to leave the chatroom and display the list of other available chatrooms to join
 12.	Allow the user to log out and exit the application, closing the server connection
 
 #### Server
