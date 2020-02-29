@@ -63,19 +63,19 @@ This application will be a simple chat room and messaging system using a client-
 12.	Allow the user to log out and exit the application, closing the server connection
 
 #### Server
-1.	Allow connections from clients over a network
-2.	Maintain client connections until the client closes the connection
+1.	Allow connections from different clients over a network
+2.	Maintain client connections until the client decides to exit and close the connection
 3.	Connect to a database on the local system
 4.	Allow connected clients to create new accounts
-5.	Allow connected clients to log in to existing accounts
-6.	Send list of available chatrooms to clients on request from client
+5.	Allow connected clients to log in using their proper usernames and passwords
+6.	Send list of available chatrooms to clients when it gets requested by the client
 7.	Manage users in each chatroom, adding and removing as needed based on client connection status
 8.	Broadcast messages from users in chatrooms to all other users in the same chatroom
-9.	Maintain a chat log for each chatroom, stored in the database
+9.	Maintain a chat log for each chatroom and store the inforamtion in the database
 10.	Allow system administrator to create and delete chatrooms via a command line interface
 
 #### Database
-1.	Store user account information – username, password
+1.	Store user account information – usernameID, username, and encrypted password
 2.	Store chatroom message history for each chatroom
 
 ### Non-functional requirements
@@ -88,11 +88,12 @@ This application will be a simple chat room and messaging system using a client-
 1.	Usernames must be unique
 
 #### Client
-1.	Client should handle network errors (inability to connect to server, loss of connection, etc) without crashing
+1.	Client should be able to handle network errors, such as inability to connect to server, loss of connection without crashing
 
 #### Server
 1.	Server should handle network errors without crashing
 
 #### Database
 1.	Passwords must be encrypted
-2.	When a chatroom is deleted from the server, the chatroom message history must be deleted from the database
+2.  Usernames will have a unique userID
+3.	When a chatroom is deleted from the server, the chatroom message history must be deleted from the database
